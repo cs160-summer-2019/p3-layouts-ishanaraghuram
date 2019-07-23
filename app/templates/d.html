@@ -12,9 +12,74 @@
 
 		<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 		<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
-	</head>
+	 <style type="text/css">
+       .body {
+         display:flex;
+
+       }
+       .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        background: purple;
+        align-items: flex-end;
+        height: 1300px;
+        margin: 5px;
+      }
+      .box {
+        margin: 45px;
+        height: 290px;
+        width: 380px;
+        text-align: center;
+        background-color: orange;
+
+      }
+     .purple.box {
+       margin: 45px;
+        height: 290px;
+        width: 380px;
+        text-align: center;
+        background-color: purple;
+     }
+      
+    </style>
+  </head>
 	<body>
 		<!-- Your layout here -->
+    <div class="flex-container">
+      <div class="box"> 
+      </div>
+      <div class="box">
+      </div>
+      <div class="box">
+      </div>
+    <div class="box"> 
+      </div>
+      <div class="box">
+      </div>
+      <div class="box">
+      </div>
+    <div class="box"> 
+      </div>
+      <div class="box">
+      </div>
+      <div class="purple box">
+      </div>
+    <div class="purple box"> 
+      </div>
+      <div class="purple box">
+      </div>
+      <div class="purple box">
+      </div>
+    <div class="purple box"> 
+      </div>
+      <div class="purple box">
+      </div>
+      <div class="purple box">
+      </div>
+      
+    </div>
 
 	</body>
 </html>
